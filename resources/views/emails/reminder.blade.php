@@ -1,0 +1,1 @@
+{{ __('company.company-entry-email',['company' => $company->name]) }}
