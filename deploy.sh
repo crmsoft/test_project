@@ -4,6 +4,9 @@ composer install
 # fill db
 php artisan db:seed
 
+# storage symbolic link
+php artisan storage:link
+
 #optimize...
 php artisan config:cache
 
